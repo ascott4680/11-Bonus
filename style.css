@@ -16,6 +16,14 @@
   
 }
 
+ul{
+  padding-top: 20px;
+}
+
+table{
+  font-size: 10px;
+}
+
 .box {
   height: 400px;
   padding: 20px;

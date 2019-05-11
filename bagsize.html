@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>50 Shades of Avacado - Visualization Comparison</title>
+    <title>50 Shades of Avacado - Bag Size Price Comparison</title>
 <!-- Jquery and popper.js so that the dropdown works when clicked  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -54,38 +53,54 @@
 
 <!-- CONTENT STARTS HERE -->
 
+
 <div class="row"></div>
 
-
 <div class="container">
-	<div class="row">
-		<div class="col-md-12">
-        <div class="col-sm-12 bg-light"><h1>Visualization Comparison<hr> </h1><h5>Click on any of the plots listed below to get a detailed analysis.
-          </h5>
-              </h3></br>
-              <div class="row">
-                  <div class="column">
-                      <a href="spread.html"><h5>Price Spread</h5>
-                          <img src="img/spread.png" height=150 width=250>
-                  </div>
-                  <div class="column">
-                      <a href="avgprice.html"><h5>Average Price</h5>
-                          <img src="img/avgprice.png" height=150 width=250>
-                  </div>
-                  <div class="row">
-                      <div class="column">
-                          <a href="season.html"><h5>Seasonality</h5>
-                              <img src="img/season_conv.png" height=150 width=250>
-                      </div>
-                      <div class="column">
-                          <a href="bagsize.html"><h5>Price vs. Bag Size</h5>
-                              <img src="img/bagsize.png" height=150 width=250></br></br></a>
-                      </div>
-                  </div></div>
-		    </div>
-	  </div>
-  </div>
+    <div class="row">
+      <div class="col-sm-8 bg-light"><h1>Average Price Comparison<hr> </h1><h6>In the following visualization I wanted to see if there was any correlation on bag size of conventional avocados to price. In the results below we can draw the following conclusions:
+        <ul>
+          <li>No correlation between price and bag size</li>
+          <li>The volume of Xtra Large bags is very low when compared to small and large bags</li>
+          <li>As the volume of avocados sold increases the price stays below $0.80 per avocado</li>
+        </ul>
+      </h6>
+          </h3></br>
+      <div class="image_section">
+      <img src="img/bagsize.png" height="420" width="660"></div></br>
+      <h6>Avocado Fact-Hass is the most popular variety of avocado grown worldwide. The Hass tree was discovered in the backyard of a mailman named Rudolph Hass in Californina in the 1930’s and Hass patented his tree in 1935.</h6>
+    </div>
+
+<!-- Column 2 spacer between my content -->
+
+      <div class="col-sm-1"></div>
+<!-- End spacer column to viz column -->
+
+<!-- Change opacity // <div style="opacity:0.3;"> </div> -->
+
+
+      <div class="col-sm-3 bg-light"><h1>Avocado Visualizations<hr></h1><br>
+
+        <a href="avgprice.html">
+          <img alt="Temperature" src="img/avgprice.png" width=250 height=150>
+        
+
+        <a href="season.html">
+            <img alt="Wind" src="img/season_conv.png" width=250 height=200>
+            <div style="opacity:0.3;"> 
+        <a href="bagsize.html">
+            <img alt="Wind" src="img/bagsize.png" width=250 height=150>
+          </div>
+
+        <a href="spread.html">
+            <img alt="Wind" src="img/spread.png"  width=250 height=150>
+      </a>
+    
+    
+    </div>
+    </div>
 </div>
+
 
 
 
